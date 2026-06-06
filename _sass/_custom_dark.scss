@@ -1,0 +1,82 @@
+html,
+body {
+  background-color: #121212 !important;
+  color: #e6e6e6 !important;
+}
+
+body,
+.page,
+.page__inner-wrap,
+.archive,
+.sidebar,
+.masthead,
+.greedy-nav,
+.initial-content,
+.search-content,
+#main {
+  background-color: #121212 !important;
+  color: #e6e6e6 !important;
+}
+
+.page__content,
+.archive__item,
+.archive__subtitle,
+.sidebar p,
+.sidebar li,
+.author__bio,
+.author__urls,
+.author__urls a {
+  color: #e6e6e6 !important;
+}
+
+.site-title,
+.page__title,
+.archive__item-title,
+.author__name,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff !important;
+}
+
+a {
+  color: #8ab4f8 !important;
+}
+
+a:hover {
+  color: #aecbfa !important;
+}
+
+.greedy-nav a,
+.visible-links a {
+  color: #e6e6e6 !important;
+}
+
+.greedy-nav a:hover,
+.visible-links a:hover {
+  color: #ffffff !important;
+}
+
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  background-color: #121212 !important;
+  color: #e6e6e6 !important;
+  border-color: #333333 !important;
+}
+
+code,
+pre {
+  background-color: #1e1e1e !important;
+  color: #f1f1f1 !important;
+}
+
+hr {
+  border-color: #333333 !important;
+}
