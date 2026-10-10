@@ -54,7 +54,7 @@
         {% endif %}
 
     {% if post.award %}
-      <p class="publication-card__award"><strong>Award:</strong> {{ post.award }}</p>
+      <p class="publication-card__award"><em>{{ post.award }}</em></p>
     {% endif %}
 
     {% assign publication_excerpt = post.excerpt | strip_html | strip %}
