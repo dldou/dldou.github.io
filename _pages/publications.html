@@ -6,10 +6,15 @@ author_profile: true
 
 {% include base_path %}
 
-You can also find my publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+<div class="publications-intro">
+  <p>Selected peer-reviewed work on inverse problems, hyperspectral unmixing, and generative modeling.</p>
+  <a class="publications-intro__link" href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+</div>
 
+<div class="publications-list">
 {% assign sorted_publications = site.publications | sort: "date" | reverse %}
 
 {% for post in sorted_publications %}
   {% include archive-single.html %}
 {% endfor %}
+</div>

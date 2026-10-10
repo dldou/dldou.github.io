@@ -10,6 +10,8 @@
 locale                   : "en-US"
 site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Delphine Doutsas / PhD Student in Applied Mathematics"
+masthead_title           : "Delphine Doutsas"
+masthead_subtitle        : "PhD Student · Applied Mathematics"
 title_separator          : "-"
 name                     : &name "Delphine Doutsas"
 description              : &description "PhD student in applied mathematics working on inverse problems and generative modeling."
@@ -26,7 +28,7 @@ author:
   avatar           : 
   name             : "Delphine Doutsas"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student in applied mathematics at Mines Paris - PSL and ENS - PSL."
+  bio              : "PhD student in applied mathematics at STIM (Mines Paris - PSL) and LSP (ENS - PSL)."
   location         : "Paris, France"
   employer         : "PSL University"
   uri              : 

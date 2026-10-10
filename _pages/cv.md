@@ -7,4 +7,9 @@ redirect_from:
   - /resume
 ---
 
-You can download my CV [here](/files/cv.pdf).
+<div class="resource-card">
+  <p class="resource-card__eyebrow">Curriculum vitae</p>
+  <h2>Experience, publications, teaching, and awards</h2>
+  <p>Download the latest version of my academic CV.</p>
+  <a class="resource-card__button" href="{{ '/files/cv.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+</div>

@@ -1,6 +1,7 @@
 ---
 title: "Optimal Transport Based Hyperspectral Unmixing for Highly Mixed Observations"
 collection: publications
+authors: "Delphine Doutsas · Bruno Figliuzzi"
 permalink: /publication/2024-optimal-transport-for-bhu
 redirect_from:
   - /publication/2026-optimal-transport-for-bhu
