@@ -70,7 +70,6 @@ body {
 }
 
 .profile-intro,
-.profile-background,
 .publications-intro,
 .resource-card {
   border: 1px solid var(--site-card-border);
@@ -82,6 +81,7 @@ body {
 .profile-intro {
   position: relative;
   padding: clamp(1.4rem, 4vw, 2.25rem);
+  background: var(--site-surface-muted);
   overflow: hidden;
 }
 
@@ -96,21 +96,9 @@ body {
 }
 
 .profile-intro p:last-of-type,
-.profile-background p:last-child,
 .publications-intro p:last-child,
 .resource-card p:last-of-type {
   margin-bottom: 0;
-}
-
-.profile-background {
-  margin-top: 1.25rem;
-  padding: 1.4rem 1.6rem;
-  background: var(--site-surface-muted);
-}
-
-.profile-background h2 {
-  margin-top: 0;
-  font-size: 1.15rem;
 }
 
 .publications-intro {
@@ -213,13 +201,19 @@ body {
   line-height: 1.5;
 }
 
-.publication-card__year {
+.publication-card__place {
   flex: 0 0 auto;
   padding: 0.15rem 0.55rem;
   border-radius: 999px;
   background: var(--site-accent-soft);
   color: var(--site-accent-strong);
   font-weight: 750;
+}
+
+.publication-card__venue a {
+  color: inherit;
+  text-decoration-color: var(--site-card-border);
+  text-underline-offset: 0.18em;
 }
 
 .publication-card__award {

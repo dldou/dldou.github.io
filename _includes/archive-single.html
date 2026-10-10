@@ -46,8 +46,12 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <div class="publication-card__meta">
-            <span class="publication-card__venue">{{ post.venue }}</span>
-            <time class="publication-card__year" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time>
+            <span class="publication-card__venue">
+              {% if post.venueurl %}<a href="{{ post.venueurl }}">{{ post.venue }}</a>{% else %}{{ post.venue }}{% endif %}
+            </span>
+            <span class="publication-card__place">
+              {% if post.location %}{{ post.location }} · {% endif %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y" }}</time>
+            </span>
           </div>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
