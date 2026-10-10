@@ -6,4 +6,6 @@ permalink: /publication/2026-critical-beta-scale-posterior-collapse
 date: 2026-12-01
 venue: "Advances in Neural Information Processing Systems (NeurIPS 2026)"
 location: "Sydney, Australia"
+paperurl: "/paper-coming-soon/"
+paper_label: "Download paper (coming soon)"
 ---
