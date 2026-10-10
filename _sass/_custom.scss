@@ -249,6 +249,25 @@ body {
   margin-top: 0.4rem;
 }
 
+.page__footer-follow .footer-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.2rem;
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  background: var(--site-accent);
+  color: var(--site-accent-contrast) !important;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.page__footer-follow .footer-github-link:hover {
+  color: var(--site-accent-contrast) !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
 @media screen and (min-width: 925px) {
   .sidebar > div {
     padding-left: 1rem;
