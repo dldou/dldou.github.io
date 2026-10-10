@@ -8,6 +8,6 @@ redirect_from:
 ---
 
 <div class="resource-card">
-  <p>Download the latest version of my academic CV.</p>
-  <a class="resource-card__button" href="{{ '/files/cv.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+  <p>Download the latest version of my CV.</p>
+  <a class="resource-card__button" href="{{ '/files/cv.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download</a>
 </div>

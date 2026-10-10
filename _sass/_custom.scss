@@ -249,6 +249,46 @@ body {
   margin-top: 0.4rem;
 }
 
+.teaching-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 1.6rem;
+  padding: 0;
+  list-style: none;
+}
+
+.teaching-list li {
+  position: relative;
+  margin: 0;
+  padding: 0.9rem 1rem 0.9rem 1.2rem;
+  border: 1px solid var(--site-card-border);
+  border-radius: 12px;
+  background: var(--site-surface);
+  box-shadow: 0 6px 20px rgba(52, 42, 31, 0.045);
+}
+
+.teaching-list li::before {
+  position: absolute;
+  top: 0.85rem;
+  bottom: 0.85rem;
+  left: 0;
+  width: 4px;
+  border-radius: 0 4px 4px 0;
+  background: var(--site-accent);
+  content: "";
+}
+
+.teaching-list a {
+  color: var(--site-accent-strong) !important;
+  font-weight: 700;
+  text-decoration-color: var(--site-card-border);
+  text-underline-offset: 0.18em;
+}
+
+.teaching-list a:hover {
+  text-decoration-color: var(--site-accent);
+}
+
 .page__footer-follow .footer-github-link {
   display: inline-flex;
   align-items: center;
